@@ -11,20 +11,19 @@ header:
       url: "https://github.com/mmistakes/minimal-mistakes/"
   caption: "Photo credit: [Ryan Rosas](https://www.instagram.com/pixleprohd/?hl=en)"
 excerpt: "Learn the keys to achieving anything you want in life, enabling you to accomplish things you haven’t dared to dream. Everything you need to fulfill your desires is already within you. Your only limitations are the ones you place on yourself, eliminate those and you are on your way to Unleashing Your Unlimited Potential."
+intro: 
+  - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
 feature_row:
   - image_path: assets/images/unsplash-gallery-image-1-th.jpg
-    image_caption: "Image courtesy of [Unsplash](https://unsplash.com/"
-    alt: "its not magic placeholder"
+    alt: "placeholder image 1"
     title: "It's not magic"
     excerpt: "Mindset can achieve seemingly magical results. It's not magic though. What seems like magic is really just a process of identifying what you want and taking action to get it."
   - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
     image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
-    alt: "change the script placeholer"
+    alt: "placeholder image 2"
     title: "Change the script"
     excerpt: "Learn how to separate fact from fiction. You are the author of your own destiny. Don't let the noise take you down."
   - image_path: /assets/images/unsplash-gallery-image-3-th.jpg
-    image_caption: "Image courtesty of [Unsplash](https://unsplash.com/"
-    alt: "you decide placeholder"
     title: "You decide"
     excerpt: "The way that you respond to situations is the thing that makes the difference. Everyone goes through hard times. Don't let them get you down, keep pushing through and you can achieve anything you want."
 feature_row2:
@@ -52,7 +51,13 @@ feature_row4:
     btn_label: "Read More"
     btn_class: "btn--primary"
 ---
+
 {% include feature_row id="intro" type="center" %}
 
 {% include feature_row %}
 
+{% include feature_row id="feature_row2" type="left" %}
+
+{% include feature_row id="feature_row3" type="right" %}
+
+{% include feature_row id="feature_row4" type="center" %}
